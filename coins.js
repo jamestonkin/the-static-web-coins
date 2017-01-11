@@ -28,7 +28,7 @@ function coinCounter(money) {
   coinPurse.nickels = parseInt(Math.floor(remains / 0.05));
   // calculates remaining money after nickels
   remains -= (coinPurse.nickels * 0.05).toFixed(2);
-  // sets pennies by diviging remaining money by 0.01 and stores integer in .pennies
+  // sets pennies by dividing remaining money by 0.01 and stores integer in .pennies
   coinPurse.pennies = parseInt(Math.floor(remains / 0.01));
 
   return coinPurse;
