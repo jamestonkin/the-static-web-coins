@@ -25,4 +25,8 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
+node_modules
+.eslintrc
+package.json
+
 # End of https://www.gitignore.io/api/osx
